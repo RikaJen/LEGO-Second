@@ -1,0 +1,59 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+#contants1 img{
+    width: 100%;
+    left: 0;
+    margin-left: 0px;
+    position: absolute;
+}
+
+#contants1 h1{
+    color: #ff66cc;
+    margin-left: 400px;
+    margin-top: 300px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: "Times New Roman";
+}
+
+#contants1 h2{
+    color: #0076ff;
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 425px;
+    margin-left: 425px;
+    font-family: "KodomoRounded";
+}
+
+#contants2{
+    background: #fff url("LEGO-background-pink.png");
+}
+
+
+#contants2 img{
+    width: 250px;
+    height: 200px;
+    margin-top: 730px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
