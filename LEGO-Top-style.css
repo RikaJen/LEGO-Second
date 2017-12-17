@@ -1,59 +1,104 @@
-*{
-    
-    margin: 0;
-    padding: 0;
-
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 body{
-    width: 100%;
+  background: #fff url(LEGO-Back.gif) 0 0 repeat;
+  background-size: cover;
 }
 
-.container{
+body:hover{
     
-    width: 1100px;
-    margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  color: #ff3399;
+  text-shadow: 1px 1px 1px #999;
+  font-size: 56px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+p{
+  padding-top: 200px;
+  text-align: center;
+  color: #096530;
+  font-size: 23px;
+}
+
+img{
+    margin-left: 452px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+
+a{
+  text-align: center;
+  margin: 16px auto;
+  width: 180px;
+  color: #ff6600;
+  text-shadow: 1px 1px 1px #999;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+  background:#33ff66;
+  text-decoration-line: none;
+  border-radius: 40px;
+  margin-left: 38px;
+  display: inline;
+  padding: 10px 10px;
+}
+
+h2{
+  width: 300px;
+  text-align: center;
+  color: #6699ff;
+  text-shadow: 1px 1px 1px #28e26f;
+  font-size: 56px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin-left: 480px;
+  border: 1px solid #f409a3;
+  border-radius: 30px;
+  padding: 8px;
+  margin-top: 10px;
+}
+    
+a:hover{
+    color: #fff;
+    background: #ff6b6b;
+    transition: 3.0s;
+    }
+
+nav{
+    
     overflow: hidden;
     
 }
 
-#contants1 img{
-    width: 100%;
-    left: 0;
-    margin-left: 0px;
-    position: absolute;
+nav li{
+    
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+    margin-left: 55px;
+    
 }
 
-#contants1 h1{
-    color: #ff66cc;
-    margin-left: 400px;
-    margin-top: 300px;
-    position: absolute;
-    text-align: center;
-    font-weight: bold;
-    font-size: 70px;
-    font-family: "Times New Roman";
-}
-
-#contants1 h2{
-    color: #0076ff;
-    position: absolute;
-    font-weight: bold;
-    font-size: 40px;
-    margin-top: 425px;
-    margin-left: 425px;
-    font-family: "KodomoRounded";
-}
-
-#contants2{
-    background: #fff url("LEGO-background-pink.png");
-}
-
-
-#contants2 img{
-    width: 250px;
-    height: 200px;
-    margin-top: 730px;
-    padding-left: 0px;
-    margin-left: 0px;
+nav a{
+    
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #0066cc;
+    background: #ffcc66;
+    margin: 14px 16px 0px;
+    font-size: 30px;
+    
 }
